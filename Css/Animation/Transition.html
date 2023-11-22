@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+      div{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        top:28%;
+        left:20%;
+        background-color: aqua;
+        /* transform:rotate(120deg) */
+        /* transform:scale(1.5,1.5); */  /*horizontal,vertical*/
+        /* transform: translate(100px,100px); */
+        /* transition:height 1s ease-in-out 0.5s; */
+        transition: 1s steps(4,end) ;
+      }
+
+      div:hover{
+        transform:scale(1.5) translate(100px);
+     
+      }
+  </style>
+</head>
+<body>
+  <div>
+
+  </div>
+</body>
+</html>

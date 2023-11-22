@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+     div{
+      height: 100px;
+      width: 100px;
+      background-color: aqua;
+      position:absolute;
+      top: 28%;
+     left:20%;
+     /* animation:changeshape 0.5s ease-in-out infinite alternate; */
+      animation-name: changeshape,rotate,rsize;
+      animation-iteration-count: infinite,infinite,infinite;
+      animation-duration: 0.8s,0.8s,0.8s;
+      animation-direction: alternate,alternate,alternate;
+    
+    }
+  @keyframes changeshape {
+      /* from{
+        border-radius: 0%;
+      }
+      to{
+        border-radius: 50%;
+      } */
+      0%{
+        border-radius: 0%;
+      }
+      25%{
+        border-radius: 12.5%;
+      }
+      50%{
+        border-radius: 25%;
+      }
+
+      100%{
+        border-radius: 50%;
+      }
+  }
+
+  @keyframes rotate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes rsize {
+    from{
+       height: 200px;
+       width:200px;
+    }
+    to{
+      height: 100px;
+       width:100px;
+    }
+  }
+  </style>
+ 
+</head>
+<body>
+  
+  <div></div>
+</body>
+</html>

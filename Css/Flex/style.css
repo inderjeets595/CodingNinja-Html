@@ -1,0 +1,52 @@
+body{
+  margin:0px;
+
+}
+
+/* #container{
+  height: auto;
+  width: 75vh;
+  background-color: cyan;
+  display: flex;
+  flex-direction:row; 
+  /* flex-direction:row-reverse;
+  flex-wrap:wrap;
+  margin: auto;
+} */
+
+#container{
+  height: 400px;
+  width: 650px;
+  background-color: cyan;
+  display: flex;
+  flex-direction:column; 
+  /* flex-direction:row-reverse; */
+  flex-wrap:wrap;
+  margin: auto;
+}
+
+
+#container div{
+  width: 200px;
+  height: 200px;
+
+}
+#div1{
+  background-color: red;
+}
+
+#div2{
+  background-color: pink;
+}
+
+#div3{
+  background-color: yellowgreen;
+}
+
+#div4{
+  background-color: coral;
+}
+
+#div5{
+  background-color: green;
+}
